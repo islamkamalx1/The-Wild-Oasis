@@ -130,7 +130,7 @@ function BookingDataBox({ booking }) {
         </div>
 
         <p>
-          {format(new Date(startDate), "EEE, MMM dd yyyy")} (
+          {format(new Date(startDate), "EEE, MMM dd yyyy")}(
           {isToday(new Date(startDate))
             ? "Today"
             : formatDistanceFromNow(startDate)}
