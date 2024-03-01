@@ -1,7 +1,7 @@
 import BookingDetail from "../features/bookings/BookingDetail";
 
-const booking = () => {
+const Booking = () => {
   return <BookingDetail />;
 };
 
-export default booking;
+export default Booking;
