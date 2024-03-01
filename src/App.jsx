@@ -5,11 +5,8 @@ import { Toaster } from "react-hot-toast";
 import GlobalStyles from "./styles/GlobalStyles";
 
 import AppLayout from "./ui/AppLayout";
-import Dashboard from "./pages/Dashboard";
-import Bookings from "./pages/Bookings";
 import Booking from "./pages/Booking";
 import Checkin from "./pages/Checkin";
-import Cabins from "./pages/Cabins";
 import Users from "./pages/Users";
 import Settings from "./pages/Settings";
 import Account from "./pages/Account";
@@ -17,6 +14,11 @@ import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import { DarkModeProvider } from "./context/DarkModeContext";
+import { lazy } from "react";
+
+const Dashboard = lazy(() => import("./pages/Dashboard"))
+const Bookings = lazy(() => import("./pages/Bookings"))
+const Cabins = lazy(() => import("./pages/Cabins"))
 
 const queryClient = new QueryClient({
   defaultOptions: {
