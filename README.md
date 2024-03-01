@@ -9,6 +9,8 @@ The Wild Oasis is a hotel management system built with React js and supabase for
 - Dashboard for stats and charts for analysis
 - Cabins
 - Bookings
+- Filtering & Sorting
+- Pagination
 - Checking In & Checking Out
 - Settings
 - Light / Dark Mode switcher based on user preferences
