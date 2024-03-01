@@ -1,7 +1,7 @@
 
 # The Wild Oasis
 
-The Wild Oasis is an hotel management system built with React js and supabase from the backend part
+The Wild Oasis is a hotel management system built with React js and supabase for the backend part
 
 ## Features
 
